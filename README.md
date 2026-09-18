@@ -1,75 +1,82 @@
-# React + TypeScript + Vite
+# Engineered Simplicity
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Personal portfolio — [rafaelpereiragoncalves](https://github.com/rafaelpereiragoncalves)
 
-Currently, two official plugins are available:
+This portfolio is not just a collection of projects.
+It is a practical demonstration of how software should be built.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Every visual, structural, and technical decision was made to communicate organization, clarity, and attention to detail. The interface disappears and the content takes the stage.
 
-## React Compiler
+Full philosophy: [docs/design-manifesto.md](docs/design-manifesto.md)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Stack
 
-## Expanding the ESLint configuration
+- React 19 + TypeScript
+- Vite
+- Tailwind CSS v4
+- Motion + GSAP (motion with purpose only)
+- React Router 7 (lazy-loaded routes)
+- lucide-react icons
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Getting started
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Scripts
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+| Script            | Description                              |
+| ----------------- | ---------------------------------------- |
+| `npm run dev`     | Start the development server             |
+| `npm run build`   | Type-check (`tsc -b`) and build for prod |
+| `npm run lint`    | Run ESLint                               |
+| `npm run preview` | Preview the production build             |
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Project structure
 
+```text
+src/
+├── app/            # router, providers, AppShell
+├── pages/          # Overview (/), Projects (/projects), About (/about)
+├── components/
+│   ├── ui/         # Typography, Section, InfoList
+│   ├── layout/     # AppShell, FloatingMenu, PageContainer, PageGrid, PageTransition
+│   ├── overview/   # Hero, Focus, Stack, FeaturedProjects
+│   ├── projects/   # ProjectList, ProjectListItem, ProjectPreview, ProjectMockup
+│   └── about/      # AboutHeader, AboutLayout, CodeEditor, LanguageBar, Readme
+├── data/           # projects, about, editor content
+├── design-system/  # tokens and shared primitives
+├── styles/         # globals, theme, tokens
+├── hooks/          # e.g. useScrollNavigation
+└── lib/            # utils
+docs/               # product spec, design system, components, architecture, roadmap
 ```
+
+## Pages
+
+- `/` — Overview: hero, focus, stack, featured projects
+- `/projects` — full project list
+- `/about` — story and principles
+
+Every page is exactly `100vw × 100vh`. There is no scroll. When content grows, we create another page — we never grow the page.
+
+## Design principles
+
+- Every element has a purpose
+- Content first
+- Less is better
+- Fast is beautiful
+- Consistency creates trust
+
+See the [design manifesto](docs/design-manifesto.md) and [design principles](docs/design-principles.md).
+
+## Documentation
+
+- [docs/product-spec.md](docs/product-spec.md) — product specification
+- [docs/design-system.md](docs/design-system.md) — tokens, typography, components
+- [docs/components.md](docs/components.md) — component catalog
+- [docs/architecture.md](docs/architecture.md) — technical architecture
+- [docs/content.md](docs/content.md) — site copy
+- [docs/roadmap.md](docs/roadmap.md) — roadmap

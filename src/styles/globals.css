@@ -1,0 +1,125 @@
+@import "@fontsource-variable/inter";
+@import "@fontsource/passions-conflict";
+
+@import "./tokens.css";
+
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans:
+    -apple-system,
+    BlinkMacSystemFont,
+    "SF Pro Display",
+    "SF Pro Text",
+    "Inter Variable",
+    sans-serif;
+
+  --font-display: "Passions Conflict", cursive;
+
+  --color-background-primary: var(--color-background-primary);
+  --color-background-secondary: var(--color-background-secondary);
+  --color-surface-primary: var(--color-surface-primary);
+  --color-surface-elevated: var(--color-surface-elevated);
+  --color-text-primary: var(--color-text-primary);
+  --color-text-secondary: var(--color-text-secondary);
+  --color-text-muted: var(--color-text-muted);
+  --color-text-disabled: var(--color-text-disabled);
+  --color-border-default: var(--color-border-default);
+  --color-border-subtle: var(--color-border-subtle);
+  --color-accent-primary: var(--color-accent-primary);
+  --color-accent-hover: var(--color-accent-hover);
+  --color-accent-active: var(--color-accent-active);
+}
+
+:root {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "SF Pro Display",
+    "SF Pro Text",
+    "Inter Variable",
+    sans-serif;
+
+  color: var(--color-text-primary);
+  background: var(--color-background-primary);
+}
+
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(
+      1200px 900px at 20% 0%,
+      #4a0e0e 0%,
+      #380808 45%,
+      #240404 100%
+    );
+  color: var(--color-text-primary);
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: #7a1d1d;
+  color: #ffffff;
+}
+
+@keyframes icon-dance {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-2px) rotate(-6deg);
+  }
+  50% {
+    transform: translateY(0) rotate(0deg);
+  }
+  75% {
+    transform: translateY(2px) rotate(6deg);
+  }
+}
+
+.icon-dance {
+  display: inline-block;
+  animation: icon-dance 2.4s ease-in-out infinite;
+  transform-origin: center;
+  will-change: transform;
+}
+
+/* ==========================================================
+   Barra de rolagem customizada (scroll interno)
+   ========================================================== */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #7a1d1d rgba(0, 0, 0, 0.35);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 999px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #8a2525, #7a1d1d);
+  border: 2px solid rgba(0, 0, 0, 0.35);
+  border-radius: 999px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #3d1a1a, #a12f2f);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:active {
+  background: linear-gradient(180deg, #b53636, #8a2525);
+}
+
+.custom-scrollbar::-webkit-scrollbar-corner {
+  background: transparent;
+}

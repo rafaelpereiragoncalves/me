@@ -2,294 +2,208 @@
 
 > Engineered Simplicity
 
-Este portfólio não é apenas uma coleção de projetos.
+This portfolio is not just a collection of projects.
 
-Ele é a demonstração prática de como acredito que software deve ser construído.
+It is a practical demonstration of how software should be built.
 
-Cada decisão visual, estrutural e técnica foi tomada para transmitir organização, clareza e atenção aos detalhes.
-
----
-
-# Nossa Missão
-
-Criar uma experiência onde a interface desaparece e o conteúdo se torna protagonista.
-
-O visitante nunca deve pensar em como utilizar o site.
-
-Ele apenas encontra rapidamente o que procura.
+Every visual, structural, and technical decision was taken to communicate organization, clarity, and attention to detail.
 
 ---
 
-# Nossa Filosofia
+# Our Mission
 
-Software complexo pode possuir uma interface simples.
+Create an experience where the interface disappears and the content becomes the protagonist.
 
-Simplicidade não significa falta de funcionalidades.
+The visitor should never think about how to use the site.
 
-Significa remover tudo aquilo que não agrega valor.
+He just finds what he's looking for quickly.
 
 ---
 
-# O que queremos transmitir
+# Our Philosophy
 
-Ao abrir este portfólio, o visitante deve perceber imediatamente:
+Complex software can have a simple interface.
 
-• Organização
+Simplicity does not mean lack of functionality.
 
-• Clareza
+It means removing everything that does not add value.
 
-• Engenharia
+---
 
-• Qualidade
+# What We Want to Transmit
 
-• Cuidado
+Opening this portfolio, the visitor should immediately perceive:
 
-• Precisão
+• Organization
+
+• Clarity
+
+• Engineering
+
+• Quality
+
+• Care
+
+• Precision
 
 • Performance
 
-• Simplicidade
+• Simplicity
 
 ---
 
-# O que NÃO queremos transmitir
+# What We Do NOT Want to Transmit
 
-❌ Excesso de criatividade
+❌ Excessive creativity
 
-❌ Interface chamativa
+❌ Eye-catching interface
 
-❌ Muitas cores
+❌ Too many colors
 
-❌ Muitas animações
+❌ Too many animations
 
-❌ Poluição visual
+❌ Visual pollution
 
-❌ Informações repetidas
+❌ Repeated information
 
-❌ Componentes desnecessários
+❌ Unnecessary components
 
-❌ Complexidade
+❌ Complexity
 
 ---
 
-# Princípios
+# Principles
 
 ## 1. Every element has a purpose.
 
-Nenhum elemento existe apenas para decorar.
+No element exists just to decorate.
 
-Se um componente não melhora a comunicação ou a experiência, ele deve ser removido.
+If a component does not improve communication or experience, it should be removed.
 
 ---
 
 ## 2. Content first.
 
-O conteúdo é mais importante que os efeitos visuais.
+Content is more important than visual effects.
 
-O design existe para facilitar a leitura.
+The design exists to facilitate reading.
 
-Nunca para competir com ela.
+Never to compete with it.
 
 ---
 
 ## 3. Less is better.
 
-Quando houver duas soluções possíveis,
-escolha sempre a mais simples.
+When there are two possible solutions,
+
+always choose the simpler one.
 
 ---
 
 ## 4. Fast is beautiful.
 
-A informação deve ser encontrada imediatamente.
+Information should be found immediately.
 
-Cada clique desnecessário é uma falha de UX.
+Every unnecessary click is a UX failure.
 
 ---
 
 ## 5. Consistency creates trust.
 
-Componentes semelhantes possuem comportamento semelhante.
+Similar components should have similar behavior.
 
-Espaçamentos seguem uma escala.
+Spacings follow a scale.
 
-Cores seguem uma regra.
+Colors follow a rule.
 
-Tipografia segue uma hierarquia.
+Typography follows a hierarchy.
 
-Nada muda sem motivo.
+Nothing changes without reason.
 
 ---
 
 ## 6. Details matter.
 
-Os pequenos detalhes comunicam qualidade.
+Small details communicate quality.
 
-Alinhamentos.
+Alignments.
 
 Padding.
 
 Radius.
 
-Sombras.
+Shadows.
 
-Transições.
+Transitions.
 
-Todos devem parecer cuidadosamente construídos.
+All should seem carefully constructed.
 
 ---
 
 ## 7. Motion explains.
 
-Animações existem para orientar.
+Animations exist to guide.
 
-Nunca para impressionar.
+Never to impress.
 
-Elas devem explicar mudanças de estado.
+They should explain state changes.
 
-Jamais distrair.
+Never distract.
 
 ---
 
 ## 8. Whitespace is part of the interface.
 
-Espaço vazio não é desperdício.
+Empty space is not waste.
 
-Ele melhora a leitura.
+It improves reading.
 
-Cria hierarquia.
+It creates hierarchy.
 
-Organiza o conteúdo.
+It organizes content.
 
 ---
 
 ## 9. Navigation should disappear.
 
-O usuário nunca deve pensar em como navegar.
+The user should never think about how to navigate.
 
-Tudo deve parecer natural.
+Everything should seem natural.
 
 ---
 
 ## 10. Performance is a feature.
 
-O carregamento faz parte da experiência.
+Loading is part of the experience.
 
-O site deve parecer instantâneo.
-
----
-
-# Regras do Layout
-
-Cada página ocupa exatamente:
-
-100vw × 100vh
-
-Não existe scroll.
-
-Caso o conteúdo aumente:
-
-Criamos outra página.
-
-Nunca aumentamos a página.
+The site should seem instantaneous.
 
 ---
 
-# Regras da Interface
+# Definitions of Quality
 
-Utilizar poucos componentes.
+A screen is considered ready when:
 
-Cada componente deve possuir apenas uma responsabilidade.
+✔ No element seems out of place.
 
-Evitar sobrecarga visual.
+✔ Reading happens naturally.
 
-Priorizar legibilidade.
+✔ The user finds any information in a few seconds.
 
----
+✔ The design looks light.
 
-# Tipografia
+✔ The interface conveys trust.
 
-Poucas variações.
-
-Hierarquia clara.
-
-Grandes títulos.
-
-Pouco texto.
-
-Linhas curtas.
+✔ The implementation is as organized as the interface.
 
 ---
 
-# Cores
+# Our Question
 
-Paleta neutra.
+Before implementing any component, ask:
 
-Uma única cor de destaque.
+Does this component make the experience simpler?
 
-Nada deve competir pela atenção.
+If the answer is "no",
 
----
-
-# Componentes
-
-Todos seguem o mesmo sistema de:
-
-- radius
-- spacing
-- elevation
-- motion
-- typography
-
----
-
-# Acessibilidade
-
-Toda informação importante deve estar disponível:
-
-- sem animações
-- apenas pelo teclado
-- em alto contraste
-- com foco visível
-
----
-
-# Performance
-
-Todo componente deve justificar sua existência.
-
-Quanto menos JavaScript, melhor.
-
-Quanto menos dependências, melhor.
-
-Quanto menos renderizações, melhor.
-
----
-
-# Definição de Qualidade
-
-Uma tela é considerada pronta quando:
-
-✔ Nenhum elemento parece deslocado.
-
-✔ A leitura acontece naturalmente.
-
-✔ O usuário encontra qualquer informação em poucos segundos.
-
-✔ O design parece leve.
-
-✔ A interface transmite confiança.
-
-✔ A implementação é tão organizada quanto a interface.
-
----
-
-# Nossa Pergunta
-
-Antes de implementar qualquer componente, pergunte:
-
-Este componente torna a experiência mais simples?
-
-Se a resposta for "não",
-
-ele não pertence ao projeto.
+it does not belong to the project.

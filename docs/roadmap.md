@@ -6,24 +6,29 @@
 # Phase 1 — Foundation
 
 
+
 Status:
 
 ⬜
 
 
-Objetivo:
 
-Preparar ambiente e arquitetura.
+Objective:
+
+
+
+Prepare environment and architecture.
+
 
 
 Tasks:
 
-- criar projeto Vite
-- configurar TypeScript
-- configurar Tailwind
-- configurar ESLint
-- configurar Prettier
-- criar estrutura inicial
+- create Vite project
+- configure TypeScript
+- configure Tailwind
+- configure ESLint
+- configure Prettier
+- create initial structure
 
 
 
@@ -32,21 +37,30 @@ Tasks:
 # Phase 2 — Design System
 
 
+
 Status:
 
 ⬜
 
 
+
+Objective:
+
+
+
+Create design system.
+
+
+
 Tasks:
 
-
-- criar tokens
-- criar tema
-- configurar tipografia
-- configurar cores
-- configurar spacing
-- configurar radius
-- configurar motion
+- create tokens
+- create theme
+- configure typography
+- configure colors
+- configure spacing
+- configure radius
+- configure motion
 
 
 
@@ -55,13 +69,22 @@ Tasks:
 # Phase 3 — Core Components
 
 
+
 Status:
 
 ⬜
 
 
-Criar:
 
+Objective:
+
+
+
+Create core components.
+
+
+
+Tasks:
 
 - Button
 - Card
@@ -78,18 +101,27 @@ Criar:
 # Phase 4 — Application Shell
 
 
+
 Status:
 
 ⬜
 
 
-Criar:
+
+Objective:
 
 
-- layout principal
-- navegação
-- transições
-- tema
+
+Create application shell.
+
+
+
+Tasks:
+
+- main layout
+- navigation
+- transitions
+- theme
 - viewport
 
 
@@ -99,37 +131,49 @@ Criar:
 # Phase 5 — Pages
 
 
+
 ## Home
 
 
+
 ⬜
+
 
 
 ## About
 
 
+
 ⬜
+
 
 
 ## Projects
 
 
+
 ⬜
+
 
 
 ## Experience
 
 
+
 ⬜
+
 
 
 ## Skills
 
 
+
 ⬜
 
 
+
 ## Contact
+
 
 
 ⬜
@@ -141,12 +185,16 @@ Criar:
 # Phase 6 — Content
 
 
-Adicionar:
+
+Objective:
 
 
-- projetos reais
-- experiências
-- informações pessoais
+
+Add:
+
+- real projects
+- experiences
+- personal information
 - links
 
 
@@ -156,13 +204,17 @@ Adicionar:
 # Phase 7 — Polish
 
 
-Melhorias:
+
+Objective:
 
 
-- animações
-- microinterações
-- detalhes visuais
-- responsividade
+
+Improvements:
+
+- animations
+- microinteractions
+- visual details
+- responsiveness
 
 
 
@@ -171,12 +223,15 @@ Melhorias:
 # Phase 8 — Production
 
 
-Checklist:
 
+Objective:
+
+
+
+Checklist:
 
 - SEO
 - performance
-- acessibilidade
+- accessibility
 - deploy
-- domínio
-
+- domain

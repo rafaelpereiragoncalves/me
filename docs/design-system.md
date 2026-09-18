@@ -2,108 +2,115 @@
 
 > Engineered Simplicity
 
-Versão: 1.0.0
+Version: 1.0.0
 
-Este documento define os padrões visuais, tokens e regras de implementação do portfólio.
+This document defines the visual standards, tokens, and implementation rules for the portfolio.
 
-O objetivo é garantir uma experiência consistente, precisa e simples.
+The goal is to ensure a consistent, precise, and simple experience.
 
 ---
 
 # 1. Design Identity
 
-## Nome
+## Name
 
 Engineered Simplicity
 
-## Conceito
+## Concept
 
-Uma interface que demonstra que sistemas complexos podem ser apresentados de forma simples.
+An interface that demonstrates how complex systems can be presented simply.
 
-O design deve transmitir:
+The design should convey:
 
-- precisão
-- clareza
-- confiança
-- engenharia
-- atenção aos detalhes
+- precision
+- clarity
+- trust
+- engineering
+- attention to detail
 
 ---
 
 # 2. Design Principles
 
-## Precision
+### Precision
 
-Cada elemento deve possuir alinhamento, espaçamento e proporção intencional.
+Every element must have intentional alignment, spacing, and proportion.
 
-Nada deve parecer acidental.
+Nothing should seem accidental.
 
----
 
-## Clarity
 
-A interface deve comunicar rapidamente.
+### Clarity
 
-O usuário deve encontrar qualquer informação importante em poucos segundos.
+The interface should communicate quickly.
 
----
+The user should find any important information in a few seconds.
 
-## Simplicity
 
-A solução mais simples deve sempre ser priorizada.
 
-Menos elementos.
-Mais significado.
+### Simplicity
 
----
+The simplest solution should always be prioritized.
 
-## Consistency
+Less elements.
 
-Componentes semelhantes devem possuir o mesmo comportamento visual.
+More meaning.
 
----
 
-## Craftsmanship
 
-Detalhes pequenos são importantes:
+### Consistency
 
-- espaçamento
-- tipografia
-- animações
-- alinhamento
-- estados dos componentes
+Similar components should have the same visual behavior.
+
+
+
+### Craftsmanship
+
+Small details are important:
+
+- spacing
+- typography
+- animations
+- alignment
+- component states
+
+
 
 ---
 
 # 3. Visual Language
 
-## Características
+## Characteristics
 
-O design utiliza:
+The design uses:
 
-- superfícies limpas
-- espaços negativos generosos
-- tipografia forte
-- cores neutras
-- uma cor de destaque
-- bordas suaves
-- animações discretas
+- clean surfaces
+- generous negative space
+- strong typography
+- neutral colors
+- one accent color
+- soft edges
+- discrete animations
+
+
 
 ---
 
 # 4. Color System
 
-## Filosofia
+### Philosophy
 
-A cor deve organizar a informação.
+Color should organize information.
 
-Nunca decorar.
+Never just decorate.
 
-A interface utiliza:
+The interface uses:
 
-- cores neutras dominantes
-- uma cor de ação
-- estados semânticos
+- dominant neutral colors
+- one action color
+- semantic states
+
+
 
 ---
 
@@ -116,19 +123,17 @@ background-primary
 #FAFAFA
 
 
+
 background-secondary
 
 #F4F4F5
+
 
 
 surface-primary
 
 #FFFFFF
 
-
-surface-elevated
-
-#FFFFFF
 
 
 ---
@@ -140,9 +145,11 @@ text-primary
 #18181B
 
 
+
 text-secondary
 
 #52525B
+
 
 
 text-muted
@@ -150,9 +157,11 @@ text-muted
 #71717A
 
 
+
 text-disabled
 
 #A1A1AA
+
 
 
 ---
@@ -164,9 +173,11 @@ border-default
 #E4E4E7
 
 
+
 border-subtle
 
 #F4F4F5
+
 
 
 ---
@@ -178,14 +189,17 @@ accent-primary
 #2563EB
 
 
+
 accent-hover
 
 #1D4ED8
 
 
+
 accent-active
 
 #1E40AF
+
 
 
 ---
@@ -197,9 +211,11 @@ background-primary
 #09090B
 
 
+
 background-secondary
 
 #111113
+
 
 
 surface-primary
@@ -207,9 +223,11 @@ surface-primary
 #18181B
 
 
+
 surface-elevated
 
 #27272A
+
 
 
 text-primary
@@ -217,9 +235,11 @@ text-primary
 #FAFAFA
 
 
+
 text-secondary
 
 #D4D4D8
+
 
 
 text-muted
@@ -227,13 +247,14 @@ text-muted
 #A1A1AA
 
 
+
 ---
 
 # 5. Typography
 
-## Font Family
+### Font Family
 
-Prioridade:
+Priority:
 
 1. SF Pro Display (macOS)
 2. SF Pro Text
@@ -241,17 +262,20 @@ Prioridade:
 4. Geist
 
 
+
 CSS:
 
 ```css
 font-family:
--apple-system,
-BlinkMacSystemFont,
-"SF Pro Display",
-"SF Pro Text",
-Inter,
-sans-serif;
+ -apple-system,
+ BlinkMacSystemFont,
+ "SF Pro Display",
+ "SF Pro Text",
+ Inter,
+ sans-serif;
 ```
+
+
 
 ---
 
@@ -259,32 +283,24 @@ sans-serif;
 
 ## Display
 
-Uso:
+Use: Hero main
 
-Hero principal
+Size: 64px
 
-Tamanho:
+Line-height: 72px
 
-64px
+Weight: 600
 
-Line-height:
-
-72px
-
-Weight:
-
-600
 
 
 ---
 
 ## Heading XL
 
-Uso:
-
-Títulos principais
+Use: Main titles
 
 48px / 56px
+
 
 
 ---
@@ -294,11 +310,13 @@ Títulos principais
 32px / 40px
 
 
+
 ---
 
 ## Heading Medium
 
 24px / 32px
+
 
 
 ---
@@ -308,11 +326,13 @@ Títulos principais
 18px / 28px
 
 
+
 ---
 
 ## Body
 
 16px / 24px
+
 
 
 ---
@@ -322,232 +342,239 @@ Títulos principais
 14px / 20px
 
 
+
 ---
 
 ## Caption
 
 12px / 16px
 
+
+
 ---
 
 # 6. Spacing System
 
-Todas as distâncias utilizam a escala:
+All distances use the scale:
 
 ```
+
 4
+
 8
+
 12
+
 16
+
 24
+
 32
+
 48
+
 64
+
 80
+
 96
+
 128
+
 ```
 
-Nunca utilizar valores arbitrários.
+Never use arbitrary values.
+
+
 
 ---
 
 # 7. Layout System
 
-## Container
+### Container
 
-Desktop:
-
-1280px
+Desktop: 1280px
 
 
-Large Desktop:
 
-1440px
+Large Desktop: 1440px
+
 
 
 ---
 
-## Grid
+### Grid
 
-Desktop:
+Desktop: 12 columns
 
-12 colunas
-
-
-Gap:
-
-24px
 
 
 ---
 
-Tablet:
+Tablet: 8 columns
 
-8 colunas
 
 
 ---
 
-Mobile:
-
-4 colunas
+Mobile: 4 columns
 
 
-Gap:
 
-16px
+Gap: 16px
+
 
 
 ---
 
 # 8. Border Radius
 
-## Tokens
+### Tokens
 
-radius-sm
-
-8px
+radius-sm: 8px
 
 
-radius-md
 
-12px
-
-
-radius-lg
-
-20px
+radius-md: 12px
 
 
-radius-xl
 
-28px
+radius-lg: 20px
 
 
-radius-full
 
-999px
+radius-xl: 28px
+
+
+
+radius-full: 999px
+
 
 
 ---
 
 # 9. Elevation System
 
-Sombras devem ser discretas.
+Shadows should be discreet.
 
-A profundidade vem principalmente de:
+Depth comes primarily from:
 
-- contraste
-- bordas
-- transparência
+- contrast
+- borders
+- transparency
+
+
 
 ---
 
 ## Shadow Small
 
-Elementos pequenos.
+Small elements.
 
+
+
+---
 
 ## Shadow Medium
 
 Cards.
 
 
+
+---
+
 ## Shadow Large
 
-Modais e elementos elevados.
+Modals and elevated elements.
+
+
 
 ---
 
 # 10. Surface System
 
-Componentes podem possuir níveis:
+Components can have levels:
 
-## Level 0
+
+
+### Level 0
 
 Background
 
 
-## Level 1
+
+### Level 1
 
 Cards
 
 
-## Level 2
 
-Elementos elevados
+### Level 2
+
+Elevated elements
 
 
-## Level 3
+
+### Level 3
 
 Overlays
+
 
 
 ---
 
 # 11. Motion System
 
-## Filosofia
+### Philosophy
 
-Movimento deve explicar.
+Movement should explain.
 
-Nunca distrair.
+Never distract.
+
+
 
 ---
 
 ## Duration
 
-Fast
+Fast: 150ms
 
-150ms
+Normal: 250ms
 
+Slow: 400ms
 
-Normal
-
-250ms
-
-
-Slow
-
-400ms
 
 
 ---
 
 ## Easing
 
-Standard
+Standard: ease-out
 
-ease-out
+Smooth: cubic-bezier
 
-
-Smooth
-
-cubic-bezier
+Spring: for physical interactions
 
 
-Spring
-
-para interações físicas
 
 ---
 
 # 12. Components
 
-Todos os componentes devem seguir:
+All components should follow:
 
-- tokens de cor
-- tokens de espaçamento
-- tokens de radius
-- tokens de motion
+- color tokens
+- spacing tokens
+- radius tokens
+- motion tokens
+
 
 
 ---
 
 ## Button
 
-Variantes:
+Variants:
 
 Primary
 
@@ -555,8 +582,7 @@ Secondary
 
 Ghost
 
-
-Estados:
+States:
 
 Default
 
@@ -569,57 +595,59 @@ Disabled
 Loading
 
 
+
 ---
 
 ## Card
 
-Características:
+Characteristics:
 
-- padding consistente
-- borda suave
-- background elevado
-- hover discreto
+- consistent padding
+- soft border
+- elevated background
+- subtle hover
+
 
 
 ---
 
 ## Badge
 
-Usado para:
+Used for:
 
-- tecnologias
+- technologies
 - status
-- categorias
+- categories
+
 
 
 ---
 
 ## Navigation
 
-Características:
+Characteristics:
 
-- compacto
-- discreto
-- integrado ao layout
+- compact
+- discreet
+- integrated into the layout
+
 
 
 ---
 
 # 13. Iconography
 
-Biblioteca:
+Library: Lucide Icons
 
-Lucide Icons
+Rules:
 
-
-Regras:
-
-- mesmo peso visual
-- tamanho consistente
-- nunca utilizar ícones decorativos sem propósito
+- same visual weight
+- consistent size
+- never use decorative icons without purpose
 
 
-Tamanhos:
+
+Sizes:
 
 16px
 
@@ -628,36 +656,38 @@ Tamanhos:
 24px
 
 
+
 ---
 
 # 14. Accessibility
 
-Todos os componentes devem possuir:
+All components must have:
 
-- contraste adequado
-- foco visível
-- navegação por teclado
-- estados claros
+- adequate contrast
+- visible focus
+- keyboard navigation
+- clear states
+
 
 
 ---
 
 # 15. Responsive Rules
 
-O design deve preservar:
+The design must preserve:
 
-- hierarquia
-- simplicidade
-- velocidade
+- hierarchy
+- simplicity
+- speed
 
+Never solve lack of space by adding scroll.
 
-Nunca resolver falta de espaço adicionando scroll.
+Prefer:
 
-Preferir:
+- reduce content
+- reorganize elements
+- create new screen
 
-- reduzir conteúdo
-- reorganizar elementos
-- criar nova tela
 
 
 ---
@@ -666,54 +696,72 @@ Preferir:
 
 ## Zero Scroll
 
-Cada página deve caber em:
+Each page must fit in: 100vh
 
-100vh
 
 
 ---
 
 ## Information Speed
 
-Informações principais devem estar acessíveis em poucos segundos.
+Main information should be accessible in a few seconds.
+
+
 
 ---
 
 ## No Decoration Without Purpose
 
-Todo elemento visual precisa melhorar:
+Every visual element must improve:
 
-- entendimento
-- navegação
-- percepção de qualidade
+- understanding
+- navigation
+- perception of quality
+
+
 
 ---
 
 # 17. Quality Checklist
 
-Antes de finalizar qualquer tela:
+Before finalizing any screen:
 
-[ ] Todos os elementos estão alinhados?
 
-[ ] Os espaçamentos seguem tokens?
 
-[ ] Existe algum elemento desnecessário?
+[ ] Are all elements aligned?
 
-[ ] O usuário entende a tela rapidamente?
 
-[ ] As animações possuem propósito?
 
-[ ] A interface parece leve?
+[ ] Do spacings follow tokens?
 
-[ ] O código segue o mesmo padrão do design?
+
+
+[ ] Is there any unnecessary element?
+
+
+
+[ ] Does the user understand the screen quickly?
+
+
+
+[ ] Do animations have purpose?
+
+
+
+[ ] Does the interface look light?
+
+
+
+[ ] Does the code follow the same standard as the design?
+
 
 
 ---
 
 # 18. Final Principle
 
-Uma interface excelente não chama atenção para si.
+An excellent interface does not call attention to itself.
 
-Ela torna a experiência inevitável.
+It makes the experience inevitable.
 
-O usuário simplesmente sabe onde ir.
+The user simply knows where to go.

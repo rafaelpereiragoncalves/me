@@ -2,60 +2,68 @@
 
 > Engineered Simplicity Portfolio
 
-Versão: 1.0.0
+Version: 1.0.0
 
 
 # 1. Product Vision
 
-Criar um portfólio digital que demonstre minha capacidade como desenvolvedor através da própria experiência construída.
+Create a digital portfolio that demonstrates my capacity as a developer through the experience built itself.
 
-O produto deve transmitir:
+The product should convey:
 
-- precisão
-- simplicidade
-- organização
-- qualidade técnica
+- precision
+- simplicity
+- organization
+- technical quality
+
 
 
 ---
 
 # 2. Core Experience
 
-O usuário deve conseguir responder rapidamente:
+The user should be able to answer quickly:
 
 
-## Quem sou?
 
-Na primeira interação.
+## Who am I?
 
-
-## O que faço?
-
-Em poucos segundos.
+On the first interaction.
 
 
-## O que já construí?
 
-Sem procurar.
+## What do I do?
+
+In a few seconds.
 
 
-## Como entrar em contato?
 
-Com um clique.
+## What have I built?
+
+Without searching.
+
+
+
+## How can I get in touch?
+
+With a click.
+
 
 
 ---
 
 # 3. Navigation Model
 
-## Zero Scroll Experience
+### Zero Scroll Experience
 
-A aplicação não utiliza rolagem vertical.
+The application does not use vertical scrolling.
 
-Cada página representa uma experiência completa.
+Each page is a complete experience.
 
 
-Fluxo:
+
+Flow:
+
 
 
 Home
@@ -86,139 +94,148 @@ Contact
 
 # 4. Pages
 
-
-# Home
-
-
-## Objetivo
-
-Criar a primeira impressão.
+## Home
 
 
-## Deve comunicar:
 
-Quem sou.
+### Objective
 
-Minha especialidade.
-
-Meu posicionamento.
+Create the first impression.
 
 
-## Elementos:
+
+### Should communicate:
+
+Who I am.
+
+My specialty.
+
+My positioning.
+
+
+
+### Elements:
+
 
 
 Profile
 
-Nome
+Name
 
-Cargo
+Role
 
-Resumo
-
+Summary
 
 Status
 
-Disponibilidade
+Availability
 
+Main stack
 
-Stack principal
-
-
-Links principais
-
-
-CTA
+Main CTA
 
 
 
 ---
 
-# About
-
-
-## Objetivo
-
-Mostrar como penso.
-
-
-## Conteúdo:
-
-
-Minha abordagem
-
-Princípios
-
-História resumida
-
-Forma de trabalhar
+## About
 
 
 
----
+### Objective
 
-# Projects
-
-
-## Objetivo
-
-Demonstrar engenharia.
+Show how I think.
 
 
-Cada projeto deve mostrar:
+
+### Content:
 
 
-Problema
 
-Solução
+My approach
 
-Arquitetura
+Principles
 
-Tecnologias
+Resumed history
 
-Resultado
+Working style
 
 
 
 ---
 
-# Experience
+## Projects
 
 
-## Objetivo
 
-Mostrar evolução profissional.
+### Objective
+
+Demonstrate engineering.
+
+Each project should show:
 
 
-Formato:
+
+Problem
+
+Solution
+
+Architecture
+
+Technologies
+
+Result
+
+
+
+---
+
+## Experience
+
+
+
+### Objective
+
+Show professional evolution.
+
+
+
+### Format:
+
 
 
 Timeline visual
 
 
-Cada item:
+
+Each item:
 
 
-Empresa
 
-Cargo
+Company
 
-Período
+Role
 
-Impacto
+Period
+
+Impact
 
 
 
 ---
 
-# Skills
+## Skills
 
 
-## Objetivo
 
-Mostrar domínio técnico.
+### Objective
+
+Show technical domain.
 
 
-Categorias:
+
+### Categories:
+
 
 
 Backend
@@ -235,15 +252,18 @@ Tools
 
 ---
 
-# Contact
+## Contact
 
 
-## Objetivo
 
-Facilitar conexão.
+### Objective
+
+Facilitate connection.
 
 
-Elementos:
+
+### Elements:
+
 
 
 Email
@@ -252,7 +272,7 @@ GitHub
 
 LinkedIn
 
-Currículo
+Resume
 
 
 
@@ -260,28 +280,29 @@ Currículo
 
 # 5. Global Interactions
 
-
 ## Keyboard Navigation
 
 
-Atalhos:
+
+### Shortcuts:
+
 
 
 CMD / CTRL + K
 
-Abrir command menu
+Open command menu
 
 
 
-Arrow Keys
+### Arrow Keys
 
-Navegar páginas
+Navigate pages
 
 
 
-ESC
+### ESC
 
-Fechar overlays
+Close overlays
 
 
 
@@ -290,12 +311,12 @@ Fechar overlays
 ## Theme
 
 
-Light
 
-Dark
+### Light
 
+### Dark
 
-Sistema operacional como padrão.
+Operating system as default.
 
 
 
@@ -303,25 +324,27 @@ Sistema operacional como padrão.
 
 # 6. Zero Scroll Rules
 
-
-Nunca:
-
-
-❌ página maior que viewport
-
-❌ conteúdo escondido
-
-❌ textos longos
+Never:
 
 
-Preferir:
+
+❌ page larger than viewport
+
+❌ hidden content
+
+❌ long texts
 
 
-✔ dividir telas
 
-✔ resumir
+Prefer:
 
-✔ priorizar
+
+
+✔ divide screens
+
+✔ summarize
+
+✔ prioritize
 
 
 
@@ -329,11 +352,12 @@ Preferir:
 
 # 7. Animation Direction
 
+Navigation should feel like an application.
 
-A navegação deve parecer uma aplicação.
 
 
-Exemplos:
+Examples:
+
 
 
 Page transition:
@@ -341,9 +365,11 @@ Page transition:
 fade + slide
 
 
+
 Cards:
 
 subtle elevation
+
 
 
 Hover:
@@ -356,20 +382,15 @@ small movement
 
 # 8. Responsive Strategy
 
-
-Desktop:
-
-Experiência completa.
+Desktop: Complete experience.
 
 
-Tablet:
 
-Simplificação.
+Tablet: Simplification.
 
 
-Mobile:
 
-Priorizar informação essencial.
+Mobile: Prioritize essential information.
 
 
 
@@ -377,20 +398,24 @@ Priorizar informação essencial.
 
 # 9. Success Criteria
 
-
-O projeto está pronto quando:
-
-
-✔ Usuário entende quem sou em 5 segundos.
+The project is ready when:
 
 
-✔ Projetos são encontrados rapidamente.
+
+✔ User understands who I am in 5 seconds.
 
 
-✔ Interface parece um produto.
+
+✔ Projects are found quickly.
 
 
-✔ Nenhum elemento parece desnecessário.
+
+✔ Interface feels like a product.
 
 
-✔ Código e design possuem a mesma qualidade.
+
+✔ No element seems unnecessary.
+
+
+
+✔ Code and design have the same quality.

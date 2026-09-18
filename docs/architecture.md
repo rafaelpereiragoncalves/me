@@ -2,94 +2,66 @@
 
 > Technical foundation of Engineered Simplicity
 
-Versão: 1.0.0
+Version: 1.0.0
 
 
 # 1. Overview
 
-Este projeto é um portfólio pessoal construído como uma aplicação web moderna.
+This project is a personal portfolio built as a modern web application.
 
-O objetivo técnico é demonstrar:
+The technical goal is to demonstrate:
 
-- organização de código
-- qualidade arquitetural
+- code organization
+- architectural quality
 - performance
-- escalabilidade
-- boas práticas de desenvolvimento
+- scalability
+- best development practices
 
 
 # 2. Technology Stack
 
-
 ## Core
 
-Framework:
+Framework: React
 
-React
+Build Tool: Vite
 
+Language: TypeScript
 
-Build Tool:
+Styling: Tailwind CSS
 
-Vite
+Animation: Framer Motion (Motion)
 
+Icons: Lucide React
 
-Language:
+Routing: React Router
 
-TypeScript
-
-
-Styling:
-
-Tailwind CSS
-
-
-Animation:
-
-Framer Motion
-
-
-Icons:
-
-Lucide React
-
-
-Routing:
-
-React Router
-
-
-Deployment:
-
-Vercel / Cloudflare Pages
-
+Deployment: Vercel / Cloudflare Pages
 
 
 # 3. Architecture Principles
 
+### Component Driven
 
-## Component Driven
-
-A aplicação deve ser construída utilizando componentes pequenos e reutilizáveis.
-
-
-## Feature Oriented
-
-Cada domínio possui sua própria organização.
+The application should be built using small, reusable components.
 
 
-## Separation of Concerns
+### Feature Oriented
 
-UI, dados e regras devem permanecer separados.
+Each domain has its own organization.
 
 
-## Explicit Over Magic
+### Separation of Concerns
 
-Preferir código claro ao invés de abstrações complexas.
+UI, data, and rules must remain separate.
 
+
+### Explicit Over Magic
+
+Prefer clear code over complex abstractions.
 
 
 # 4. Folder Structure
-
 
 src/
 
@@ -150,66 +122,67 @@ src/
 └── types/
 
 
-
 # 5. Application Structure
 
+The application will be divided into pages:
 
-A aplicação será dividida em páginas:
 
 
 Home
 
-Apresentação principal.
+Main presentation.
+
 
 
 About
 
-História e princípios.
+History and principles.
+
 
 
 Projects
 
-Projetos e experiências técnicas.
+Technical projects and experiences.
+
 
 
 Experience
 
-Trajetória profissional.
+Professional trajectory.
+
 
 
 Skills
 
-Conhecimentos técnicos.
+Technical knowledge.
+
 
 
 Contact
 
-Canais de contato.
+Contact channels.
 
 
 
 # 6. State Management
 
+Principle:
 
-Princípio:
-
-Não utilizar estado global sem necessidade.
+Do not use global state without necessity.
 
 
-Preferência:
+Preference:
 
-1. Estado local React
+1. React local state
 
 2. Context API
 
-3. Zustand somente quando necessário
-
+3. Zustand only when necessary
 
 
 # 7. Styling Strategy
 
-
-Toda estilização deve utilizar:
+All styling should use:
 
 Design Tokens
 
@@ -218,49 +191,47 @@ Tailwind utilities
 Component variants
 
 
-Evitar:
+Avoid:
 
-CSS espalhado
+Spread-out CSS
 
-Valores mágicos
+Magic values
 
-Estilos duplicados
-
+Duplicate styles
 
 
 # 8. Performance Goals
 
-
-Objetivos:
+Objectives:
 
 Lighthouse:
 
 90+
 
 
+
 Performance:
 
-carregamento inicial rápido
+Initial loading fast
 
 
-Prioridades:
+
+Priorities:
 
 - lazy loading
-- otimização de imagens
-- componentes leves
-- bundle reduzido
-
+- image optimization
+- lightweight components
+- reduced bundle
 
 
 # 9. Accessibility
 
-
-Requisitos:
+Requirements:
 
 WCAG AA
 
 
-Implementar:
+Implement:
 
 - semantic HTML
 - keyboard navigation
@@ -268,12 +239,9 @@ Implementar:
 - aria labels
 
 
-
 # 10. Deployment
 
-
 Pipeline:
-
 
 Development
 
@@ -290,11 +258,9 @@ Preview
 Production
 
 
-
 # 11. Code Quality
 
-
-Obrigatório:
+Mandatory:
 
 ESLint
 
@@ -302,12 +268,10 @@ Prettier
 
 TypeScript strict mode
 
+Code must be:
 
-Código deve ser:
+readable
 
-legível
+simple
 
-simples
-
-consistente
-
+consistent

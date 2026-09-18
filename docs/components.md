@@ -1,25 +1,30 @@
 # Components Guide
 
 
+
+
+
 # Component Philosophy
 
-Componentes devem ser:
+Components should be:
 
-- pequenos
-- reutilizáveis
-- previsíveis
-- acessíveis
+- small
+- reusable
+- predictable
+- accessible
 
 
-Nunca criar componentes apenas para abstrair.
+
+Never create components just to abstract.
+
 
 
 ---
 
 # Component Structure
 
+Each component:
 
-Cada componente:
 
 
 Button/
@@ -38,8 +43,8 @@ Button/
 
 # Naming
 
+Use PascalCase:
 
-Utilizar PascalCase:
 
 
 ✅ ProjectCard
@@ -47,7 +52,9 @@ Utilizar PascalCase:
 ✅ SkillBadge
 
 
-Evitar:
+
+Avoid:
+
 
 
 ❌ cardProject
@@ -60,10 +67,10 @@ Evitar:
 
 # Component Categories
 
-
 ## UI Components
 
-Componentes básicos:
+Basic components:
+
 
 
 Button
@@ -81,6 +88,7 @@ Tooltip
 ## Layout Components
 
 
+
 Container
 
 Stack
@@ -94,6 +102,7 @@ Panel
 
 
 ## Feature Components
+
 
 
 ProjectCard
@@ -110,14 +119,12 @@ ProfileCard
 
 # Variants
 
+Components should use variants.
 
-Componentes devem utilizar variantes.
-
-
-Exemplo:
 
 
 Button:
+
 
 
 primary
@@ -129,6 +136,7 @@ ghost
 
 
 Card:
+
 
 
 default
@@ -143,8 +151,8 @@ highlight
 
 # States
 
+Every interactive component has:
 
-Todo componente interativo possui:
 
 
 Default
@@ -165,19 +173,24 @@ Loading
 
 # Animation Rules
 
+Animations should follow:
 
-Animações devem seguir:
+
 
 Motion Tokens
 
 
-Nunca:
+
+Never:
+
 
 
 transition: 347ms
 
 
-Sempre:
+
+Always:
+
 
 
 duration-fast
@@ -188,17 +201,18 @@ duration-fast
 
 # Card Rules
 
-
-Cards devem possuir:
-
-
-- radius consistente
-- padding padrão
-- borda sutil
-- conteúdo organizado
+Cards should have:
 
 
-Nunca criar cards apenas para preencher espaço.
+
+- consistent radius
+- standard padding
+- subtle border
+- organized content
+
+
+
+Never create cards just to fill space.
 
 
 
@@ -206,13 +220,13 @@ Nunca criar cards apenas para preencher espaço.
 
 # Navigation Rules
 
+Navigation should:
 
-A navegação deve:
 
 
-- ser compacta
-- ser intuitiva
-- desaparecer quando não necessária
+- be compact
+- be intuitive
+- disappear when not necessary
 
 
 
@@ -220,21 +234,24 @@ A navegação deve:
 
 # Component Checklist
 
-
-Antes de criar:
-
-
-[ ] Esse componente será reutilizado?
+Before creating:
 
 
-[ ] Existe um componente parecido?
+
+[ ] Will this component be reused?
 
 
-[ ] Está usando tokens?
+
+[ ] Is there a similar component?
 
 
-[ ] Possui estados?
+
+[ ] Is it using tokens?
 
 
-[ ] É acessível?
 
+[ ] Does it have states?
+
+
+
+[ ] Is it accessible?

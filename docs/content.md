@@ -2,143 +2,150 @@
 
 > How content communicates Engineered Simplicity
 
-Versão: 1.0.0
+Version: 1.0.0
 
 
 # 1. Content Philosophy
 
-O conteúdo do portfólio deve seguir os mesmos princípios do Design System.
+The portfolio content should follow the same principles as the Design System.
 
-A informação deve ser:
+Information should be:
 
-- clara
-- objetiva
-- técnica
-- humana
-- fácil de encontrar
+- clear
+- objective
+- technical
+- human
+- easy to find
 
 
-O usuário não deve precisar ler muito para entender quem sou, o que faço e como posso ajudar.
+The user should not have to read a lot to understand who I am, what I do, and how I can help.
+
 
 
 ---
 
 # 2. Writing Principles
 
-
 ## Clarity over Creativity
 
-Evitar textos tentando impressionar.
+Avoid texts trying to impress.
 
-A clareza é mais importante que frases bonitas.
+Clarity is more important than beautiful sentences.
 
 
-Evitar:
+
+Avoid:
 
 "Transformando ideias inovadoras em soluções digitais disruptivas."
 
 
-Preferir:
 
-"Desenvolvo aplicações escaláveis com foco em performance, arquitetura e experiência do usuário."
+Prefer:
+
+"Develops scalable applications with focus on performance, architecture, and user experience."
+
 
 
 ---
 
 ## Show, Don't Tell
 
-Não dizer que sou cuidadoso.
+Don't say I'm careful.
 
-Demonstrar através do produto.
-
-
-Evitar:
-
-"Sou um desenvolvedor detalhista."
+Demonstrate through the product.
 
 
-Preferir:
 
-"Projetos construídos com foco em arquitetura limpa, interfaces consistentes e código sustentável."
+Avoid:
+
+"I am a detail-oriented developer."
+
+
+
+Prefer:
+
+"Projects built with focus on clean architecture, consistent interfaces, and sustainable code."
+
 
 
 ---
 
 ## Technical but Human
 
-O conteúdo deve demonstrar conhecimento técnico sem parecer documentação.
+Content should demonstrate technical knowledge without looking like documentation.
 
 
-Evitar:
 
-"Especialista em microsserviços utilizando padrões avançados."
+Avoid:
+
+"Expert in microservices using advanced patterns."
 
 
-Preferir:
 
-"Construo sistemas distribuídos utilizando microsserviços, APIs bem definidas e boas práticas de engenharia."
+Prefer:
+
+"I build distributed systems using microservices, well-defined APIs, and engineering best practices."
+
 
 
 ---
 
 # 3. Personal Brand
 
-
 ## Positioning
 
-Meu posicionamento:
+My positioning:
 
+> A developer who transforms complexity into simple, organized, and efficient solutions.
 
-> Desenvolvedor que transforma complexidade em soluções simples, organizadas e eficientes.
 
 
 ---
 
 ## Personality
 
+Communication should convey:
 
-A comunicação deve transmitir:
+- precision
+- calm
+- trust
+- professionalism
+- technical curiosity
 
-
-- precisão
-- calma
-- confiança
-- profissionalismo
-- curiosidade técnica
 
 
 ---
 
 # 4. Tone of Voice
 
+### Should be:
 
-## Deve ser:
+#### Direct:
 
-
-Direto:
-
-Frases curtas.
-
-
-Seguro:
-
-Sem exageros.
-
-
-Técnico:
-
-Mostrar conhecimento.
-
-
-Humano:
-
-Mostrar personalidade.
+Short sentences.
 
 
 
----
+#### Confident:
 
-## Não utilizar:
+No exaggerations.
+
+
+
+#### Technical:
+
+Show knowledge.
+
+
+
+#### Human:
+
+Show personality.
+
+
+
+### Must not use:
+
 
 
 ❌ "guru"
@@ -147,9 +154,9 @@ Mostrar personalidade.
 
 ❌ "rockstar developer"
 
-❌ "apaixonado por desafios"
+❌ "passionate about challenges"
 
-❌ "soluções revolucionárias"
+❌ "revolutionary solutions"
 
 
 
@@ -157,17 +164,17 @@ Mostrar personalidade.
 
 # 5. Home Content
 
+The first screen needs to answer:
 
-A primeira tela precisa responder:
 
 
-Quem sou?
+Who am I?
 
-O que faço?
+What do I do?
 
-Como penso?
+How do I think?
 
-Como entrar em contato?
+How can I get in touch?
 
 
 
@@ -175,44 +182,43 @@ Como entrar em contato?
 
 ## Hero
 
+Structure:
 
-Estrutura:
 
 
-Nome
-
-↓
-
-Especialidade
+Name
 
 ↓
 
-Proposta de valor
+Specialty
 
 ↓
 
-Ações
+Value proposition
+
+↓
+
+Actions
 
 
 
-Exemplo:
+Example:
+
 
 
 Rafael Gonçalves
 
 Backend Engineer
 
-
-Construindo sistemas simples,
-escaláveis e bem estruturados.
+Building simple, scalable, and well-structured systems.
 
 
 
 Actions:
 
-Ver projetos
+View projects
 
-Entrar em contato
+Contact me
 
 
 
@@ -220,110 +226,115 @@ Entrar em contato
 
 # 6. About Content
 
+Objective:
 
-Objetivo:
+Show the way I think.
 
-Mostrar minha forma de pensar.
+Don't tell my whole story.
 
+Show:
 
-Não contar toda minha história.
-
-
-Mostrar:
-
-
-- princípios
-- trajetória
-- visão de engenharia
+- principles
+- trajectory
+- engineering vision
 
 
 
 ---
 
-Estrutura:
+Structure:
 
 
-## Minha abordagem
+
+## My approach
+
+"Building software where architecture, simplicity, and experience go together."
 
 
-"Busco construir software onde arquitetura, simplicidade e experiência caminham juntas."
 
+## How I work
 
-## Como trabalho
+- Understand the problem before the solution.
+- Prioritize simple and sustainable code.
+- Value consistency and quality.
 
-
-- Entendo o problema antes da solução.
-- Priorizo código simples e sustentável.
-- Valorizo consistência e qualidade.
 
 
 ---
 
 # 7. Projects Content
 
+Projects are not just showcases.
 
-Projetos não são apenas vitrines.
+Each project tells a story.
 
-
-Cada projeto deve contar uma história.
 
 
 ---
 
 ## Project Structure
 
-
-Nome:
-
-
-Descrição curta:
+Name:
 
 
-Problema:
+
+Short description:
 
 
-Solução:
+
+Problem:
 
 
-Arquitetura:
+
+Solution:
 
 
-Tecnologias:
+
+Architecture:
 
 
-Principais decisões:
+
+Technologies:
 
 
-Resultado:
+
+Main decisions:
+
+
+
+Result:
 
 
 
 ---
 
-## Exemplo
+## Example
 
-
-Nome:
+Name:
 
 Corefin
 
 
-Descrição:
 
-Sistema financeiro para organização e acompanhamento de despesas.
+Description:
 
-
-Problema:
-
-Usuários precisam visualizar melhor sua vida financeira.
+Financial system for organization and expense tracking.
 
 
-Solução:
 
-Aplicação SaaS com arquitetura moderna e experiência simples.
+Problem:
+
+Users need to better visualize their financial life.
 
 
-Tecnologias:
+
+Solution:
+
+SaaS application with modern architecture and simple experience.
+
+
+
+Technologies:
 
 React
 
@@ -339,65 +350,72 @@ Prisma
 
 # 8. Experience Content
 
+Don't just list positions.
 
-Não listar apenas cargos.
-
-
-Mostrar evolução.
-
-
----
-
-Estrutura:
-
-
-Empresa
-
-
-Cargo
-
-
-Período
-
-
-Principais responsabilidades
-
-
-Impacto gerado
+Show evolution.
 
 
 
 ---
 
-Evitar:
+Structure:
 
 
-"Responsável pelo desenvolvimento de APIs."
+
+Company
 
 
-Preferir:
+
+Role
 
 
-"Desenvolvimento de APIs escaláveis, integração entre serviços e evolução da arquitetura backend."
+
+Period
+
+
+
+Main responsibilities
+
+
+
+Impact generated
+
+
+
+---
+
+Avoid:
+
+
+
+"Responsible for API development."
+
+
+
+Prefer:
+
+
+
+"Development of scalable APIs, service integration, and backend architecture evolution."
+
 
 
 ---
 
 # 9. Skills Content
 
+Don't create an infinite list.
 
-Não criar uma lista infinita.
+Technologies should have context.
 
-
-Tecnologias devem possuir contexto.
 
 
 ---
 
-## Categorias
-
+## Categories
 
 Backend
+
 
 
 - Kotlin
@@ -410,6 +428,7 @@ Backend
 Frontend
 
 
+
 - React
 - TypeScript
 - Next.js
@@ -417,6 +436,7 @@ Frontend
 
 
 Infrastructure
+
 
 
 - Docker
@@ -428,8 +448,9 @@ Infrastructure
 Architecture
 
 
-- APIs REST
-- Microsserviços
+
+- REST APIs
+- Microservices
 - Clean Architecture
 
 
@@ -438,22 +459,24 @@ Architecture
 
 # 10. Contact Content
 
+Contact should be simple.
 
-Contato deve ser simples.
+No giant forms.
 
-
-Nada de formulários gigantes.
 
 
 ---
 
-Mensagem:
+Message:
 
 
-"Vamos construir algo juntos?"
+
+"Let's build something together?"
+
 
 
 Links:
+
 
 
 Email
@@ -462,7 +485,7 @@ GitHub
 
 LinkedIn
 
-Currículo
+Resume
 
 
 
@@ -470,17 +493,14 @@ Currículo
 
 # 11. Project Selection Criteria
 
+Not every project should be included.
 
-Nem todo projeto entra.
+A project should demonstrate at least one:
 
-
-Um projeto deve demonstrar pelo menos um:
-
-
-- desafio técnico
-- arquitetura interessante
-- impacto real
-- aprendizado relevante
+- technical challenge
+- interesting architecture
+- real impact
+- relevant learning
 
 
 
@@ -488,38 +508,33 @@ Um projeto deve demonstrar pelo menos um:
 
 # 12. Content Length Rules
 
-
 ## Titles
 
+Maximum:
 
-Máximo:
-
-5 palavras
+5 words
 
 
 
 ## Descriptions
 
+Maximum:
 
-Máximo:
-
-2 ou 3 linhas
+2 or 3 lines
 
 
 
 ## Cards
 
+Never exceed:
 
-Nunca ultrapassar:
-
-50 palavras
+50 words
 
 
 
 ## Sections
 
-
-Uma ideia principal por tela.
+One main idea per screen.
 
 
 
@@ -527,47 +542,55 @@ Uma ideia principal por tela.
 
 # 13. Metrics
 
-
-Quando possível utilizar números.
-
-
-Exemplo:
+When possible use numbers.
 
 
-Evitar:
 
-"Melhorei a performance."
+Example:
 
 
-Preferir:
 
-"Redução de 40% no tempo de resposta."
+Avoid:
+
+"Improved performance."
+
+
+
+Prefer:
+
+"40% reduction in response time."
+
 
 
 ---
 
 # 14. Final Content Checklist
 
-
-Antes de publicar:
-
-
-[ ] Está claro em poucos segundos?
+Before publishing:
 
 
-[ ] Existe alguma informação desnecessária?
+
+[ ] Is it clear in a few seconds?
 
 
-[ ] A mensagem combina com o Design System?
+
+[ ] Is there any unnecessary information?
 
 
-[ ] Mostra engenharia?
+
+[ ] Does the message match the Design System?
 
 
-[ ] Mostra simplicidade?
+
+[ ] Does it show engineering?
 
 
-[ ] Demonstra cuidado?
+
+[ ] Does it show simplicity?
+
+
+
+[ ] Does it demonstrate care?
 
 
 
@@ -575,11 +598,10 @@ Antes de publicar:
 
 # Final Principle
 
+Content should be like code:
 
-O conteúdo deve ser como o código:
+simple to understand,
 
-simples de entender,
+easy to maintain,
 
-fácil de manter,
-
-e com propósito claro.
+and with clear purpose.

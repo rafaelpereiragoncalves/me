@@ -42,6 +42,12 @@ export function OverviewLayout() {
           { opacity: 1, y: 0, duration: 0.45 },
           "-=0.3",
         )
+        .fromTo(
+          "[data-gsap='hero-photo']",
+          { opacity: 0, scale: 0.85 },
+          { opacity: 1, scale: 1, duration: 0.55, ease: "power3.out" },
+          "-=0.3",
+        )
 
         // ── Focus ─────────────────────────────────────────────
         .fromTo(

@@ -14,7 +14,7 @@
     "Inter Variable",
     sans-serif;
 
-  --font-display: "Passions Conflict", cursive;
+  --font-display: "SF Pro Display", "SF Pro Text", "Inter Variable", sans-serif;
 
   --color-background-primary: var(--color-background-primary);
   --color-background-secondary: var(--color-background-secondary);

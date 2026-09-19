@@ -364,7 +364,7 @@ export function CodeEditor() {
                       className="
                         font-display
                         break-words
-                        text-5xl
+                        text-4xl
                         leading-tight
                         font-normal
                         tracking-tight
